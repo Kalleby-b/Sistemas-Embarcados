@@ -20,14 +20,14 @@ int main(){
     idade = ano - nascimento;
     idade_futura = 2050 - nascimento;
 
-        /*Parte Inacabada
-    char aniversario;
-    char s ="s";
+    char aniversario[3];
+    char nao[3] = "n";
 
-    printf("\nJá fez aniversário esse ano (1/0):\n");
-    scanf("%c",&aniversario);
+    printf("\nJá fez aniversário esse ano (S/n):\n");
+    scanf("%s",aniversario);
 
-    if(aniversario == s){
+
+    if(aniversario[1] == nao[1]){
         //Mostrando Informações na Tela
         idade = idade - 1;
         printf("\nSua Idade Atual:%i\n",idade);
@@ -41,11 +41,11 @@ int main(){
         printf("\nSua idade em 2050:%i\n",idade_futura);
 
     }
-    */
-
-    //Mostrando Informações na Tela
-        printf("\nSua Idade Atual:%i\n",idade);
-        printf("\nSua idade em 2050:%i\n",idade_futura);
+    
+    printf("Digite Enter para continuar...");
+    getchar();
+    getchar();
+        
         
 return 0;
 }
