@@ -8,7 +8,6 @@ retorna a idade hoje e a idade em 2050
 int ano,nascimento; //Variaveis para o Ano atual e ano de nascimento
 
 int main(){
-    //Recolhendo os Dados do Usuario
     printf("\nDigite o Ano Atual:\n");
     scanf("%i",&ano);
     printf("\nDigite o seu ano de nascimento:\n");
@@ -48,4 +47,4 @@ int main(){
         
         
 return 0;
-}
+} 
