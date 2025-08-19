@@ -10,6 +10,12 @@ int main(){
     int i = 0;
     int k = 0;
     int vet[quant];
+
+    for(k = 0;k<quant;k++)
+    {
+        vet[k] = 0;
+    }
+
     while (i<quant)
     {
         printf("| Valor Lido | Dobro do valor lido |\n");
